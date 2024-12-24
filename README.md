@@ -7,3 +7,8 @@ Model4 ->   nomic-embed-text-v1: dimension 1024
 Model5 ->   gte-large: dimension 1024 
 
 Algorithms -> RF, SVM, MLP
+
+# Using these 5 different text representation techniques for retrieval augmentation 
+
+For each question from 2000 different ones and their answers in Turkish, get top1 and top5. Then using three different
+ensemling methods (majority voting, average, weight average) get new results, and compare the accuracy values
